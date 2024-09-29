@@ -16,6 +16,7 @@ Browser - Chrome 129.0.6668.71 (скачан соответствующий chro
 - в файле wait.py в переменной pytest.driver вместо <path_to_driver> указать путь до проекта.
 
 Команда для запуска тестов в терминале PyCharm (вместо <path_to_driver> необходимо указать путь до проекта):
+
 python -m pytest -v --driver Chrome --driver-path <path_to_driver>/chromedriver-win64/chromedriver
 .exe petfriends-selenium/wait.py
 
