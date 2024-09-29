@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 @pytest.fixture(autouse=True)
 def testing():
-    pytest.driver = webdriver.Chrome('C:/Users/Lena/PycharmProjects/pythonProject/chromedriver-win64/chromedriver.exe')
+    pytest.driver = webdriver.Chrome('<path_to_driver>/chromedriver-win64/chromedriver.exe')
     # Переходим на страницу авторизации
     pytest.driver.get('http://petfriends.skillfactory.ru/login')
     yield
