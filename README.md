@@ -1,4 +1,4 @@
-# petfriends-UI
+# petfriends-ui
 
 UI-тестирование веб-приложения PetFriends (https://petfriends.skillfactory.ru/) с использованием Selenium.
 
@@ -18,6 +18,6 @@ Browser - Chrome 129.0.6668.71 (скачан соответствующий chro
 Команда для запуска тестов в терминале PyCharm (вместо <path_to_driver> необходимо указать путь до проекта):
 
 python -m pytest -v --driver Chrome --driver-path <path_to_driver>/chromedriver-win64/chromedriver
-.exe petfriends-selenium/wait.py
+.exe petfriends-ui/wait.py
 
 В тестах использовано явное и неявное ожидания элементов.
